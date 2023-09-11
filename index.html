@@ -3,9 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Weather App</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div class="card">
+        <div class="search-box">
+            <input type="text" placeholder="Enter Your City Name" spellcheck="false" >
+            <button><img src="images/search.png" alt="Button-Image"></button>
+        </div>
+        <div class="weather">
+            <img src="images/rain.png" alt="rainphoto" class="weather-icon">
+            <h1 class="temp">°22c</h1>
+            <h2 class="city">Bhimavaram</h2>
+            <div class="humidity">
+                <div class="col">
+                    <img src="images/humidity.png" alt="Humidity Photo">
+                    <div>
+                        <p class="humidity-text">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="images/wind.png" alt="">
+                    <div>
+                        <p class="wind-text">15KM/H</p>
+                        <P>Window Speed</P>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
     
 </body>
 </html>
